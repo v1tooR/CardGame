@@ -92,8 +92,8 @@ body{
 }
 
 .details{
-  width: 100%;
-  margin-top: 25px;
+  width: 80%;
+  margin-top: 15px;
   padding: 10px 15px;
   border-radius: 15px;
   background-color: #fff;
@@ -104,7 +104,7 @@ body{
 .details p{
   font-size: 18px;
   height: 17px;
-  padding-right: 18px;
+  margin-right: 10px;
   border-right: 1px solid #ccc;
 }
 .details p span{
@@ -113,8 +113,9 @@ body{
 .details p b{
   font-weight: 500;
 }
-.details button{
+button{
   cursor: pointer;
+  margin-top: 15px;
   font-size: 14px;
   color: #fff;
   background: rgb(236, 86, 86);
@@ -124,7 +125,7 @@ body{
   border-radius: 10px;
   transition: 0.3s ease;
 }
-.details button:hover{
+button:hover{
   color: #fff;
   background-color: rgb(204, 77, 77);
 }

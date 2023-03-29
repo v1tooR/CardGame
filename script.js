@@ -2,9 +2,9 @@ const cards = document.querySelectorAll(".card") // pega qualquer elemento que t
 const timeTag = document.querySelector(".time b")
 const flipsTag = document.querySelector(".flips b")
 const pointsTag = document.querySelector(".points b")
-const refreshBtn = document.querySelector(".details button")
+const refreshBtn = document.querySelector(".btn")
 
-let maxTime = 20
+let maxTime = 30
 let timeLeft = maxTime
 let flips = 0
 let matchedCard = 0
